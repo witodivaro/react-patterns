@@ -1,0 +1,23 @@
+.button {
+  border: none;
+  background: none;
+
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px purple;
+  background: pink;
+  color: white;
+  text-shadow: 2px 2px black;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+}

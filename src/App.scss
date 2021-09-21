@@ -1,0 +1,27 @@
+.App {
+  min-height: 100vh;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  &__logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    vertical-align: sub;
+  }
+
+  &__patterns {
+    border: 1px solid black;
+  }
+}

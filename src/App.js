@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.scss";
+import MergeDestructuredProps from "./react-patterns/merge-destructured-props/MergeDestructuredProps";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="App__header">
+        <img src={logo} className="App__logo" alt="React logo" />
+        <h1 className="App__title">React patterns by Wito Divaro</h1>
       </header>
+      <main className="App__patterns">
+        <MergeDestructuredProps />
+      </main>
     </div>
   );
 }
