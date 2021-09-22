@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.scss";
 import MergeDestructuredProps from "./react-patterns/merge-destructured-props/MergeDestructuredProps";
+import DefaultProps from "./react-patterns/default-props/DefaultProps";
+import ArrayAsChildren from "./react-patterns/array-as-children/ArrayAsChildren";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       </header>
       <main className="App__patterns">
         <MergeDestructuredProps />
+        <DefaultProps />
+        <ArrayAsChildren />
       </main>
     </div>
   );

@@ -1,0 +1,18 @@
+.container {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.arrayAsChildren {
+  margin-bottom: 20px;
+  * {
+    margin-left: 5px;
+    border: 1px solid black;
+    padding: 5px;
+  }
+}
