@@ -3,6 +3,8 @@ import "./App.scss";
 import MergeDestructuredProps from "./react-patterns/merge-destructured-props/MergeDestructuredProps";
 import DefaultProps from "./react-patterns/default-props/DefaultProps";
 import ArrayAsChildren from "./react-patterns/array-as-children/ArrayAsChildren";
+import RenderProps from "./react-patterns/render-props/RenderProps";
+import ChildrenPassThrough from "./react-patterns/children-pass-through/ChildrenPassThrough";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <MergeDestructuredProps />
         <DefaultProps />
         <ArrayAsChildren />
+        <RenderProps />
+        <ChildrenPassThrough />
       </main>
     </div>
   );
