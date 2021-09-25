@@ -22,6 +22,9 @@
   }
 
   &__patterns {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
     border: 1px solid black;
   }
 

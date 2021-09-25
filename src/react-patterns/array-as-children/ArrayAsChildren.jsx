@@ -10,11 +10,11 @@ const ArrayAsChildren = () => {
     <ReactPattern name="Array As Children">
       <div className={styles.arrayAsChildren}>
         {someText.map((text) => (
-          <span>{text}</span>
+          <span key={text}>{text}</span>
         ))}
       </div>
       <div className={styles.arrayAsChildren}>
-        {[<span>Text1</span>, <span>Text2</span>]}
+        {[<span key="1">Text1</span>, <span key="2">Text2</span>]}
       </div>
     </ReactPattern>
   );

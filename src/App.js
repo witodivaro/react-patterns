@@ -4,6 +4,10 @@ import MergeDestructuredProps from "./react-patterns/merge-destructured-props/Me
 import DefaultProps from "./react-patterns/default-props/DefaultProps";
 import ArrayAsChildren from "./react-patterns/array-as-children/ArrayAsChildren";
 import { ProxyComponent } from "./react-patterns/proxy-component/ProxyComponent";
+import RenderProps from "./react-patterns/render-props/RenderProps";
+import ChildrenPassThrough from "./react-patterns/children-pass-through/ChildrenPassThrough";
+import StyleComponent from "./react-patterns/style-component/StyleComponent";
+import EventSwitch from "./react-patterns/event-switch/EventSwitch";
 
 function App() {
   return (
@@ -16,7 +20,11 @@ function App() {
         <MergeDestructuredProps />
         <DefaultProps />
         <ArrayAsChildren />
-        <ProxyComponent className="App__pattern" />
+        <ProxyComponent />
+        <RenderProps />
+        <ChildrenPassThrough />
+        <StyleComponent />
+        <EventSwitch />
       </main>
     </div>
   );
