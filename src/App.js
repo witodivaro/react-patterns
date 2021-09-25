@@ -3,6 +3,7 @@ import "./App.scss";
 import MergeDestructuredProps from "./react-patterns/merge-destructured-props/MergeDestructuredProps";
 import DefaultProps from "./react-patterns/default-props/DefaultProps";
 import ArrayAsChildren from "./react-patterns/array-as-children/ArrayAsChildren";
+import { ProxyComponent } from "./react-patterns/proxy-component/ProxyComponent";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <MergeDestructuredProps />
         <DefaultProps />
         <ArrayAsChildren />
+        <ProxyComponent className="App__pattern" />
       </main>
     </div>
   );

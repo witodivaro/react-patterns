@@ -1,14 +1,14 @@
 import React from "react";
+import ReactPattern from "../../components/ReactPattern";
 
 import styles from "./DP.module.scss";
 
 function DefaultProps({ content }) {
   return (
-    <div className={styles.container}>
-      <h3>Default props</h3>
+    <ReactPattern name="Default Props">
       <p>I didn't pass the following rendered prop:</p>
       <p className={styles.defaultProp}>{content}</p>
-    </div>
+    </ReactPattern>
   );
 }
 

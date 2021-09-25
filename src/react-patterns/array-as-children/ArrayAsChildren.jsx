@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPattern from "../../components/ReactPattern";
 
 import styles from "./AAS.module.scss";
 
@@ -6,8 +7,7 @@ const someText = ["text1", "text2"];
 
 const ArrayAsChildren = () => {
   return (
-    <div className={styles.container}>
-      <h3>Array as children</h3>
+    <ReactPattern name="Array As Children">
       <div className={styles.arrayAsChildren}>
         {someText.map((text) => (
           <span>{text}</span>
@@ -16,7 +16,7 @@ const ArrayAsChildren = () => {
       <div className={styles.arrayAsChildren}>
         {[<span>Text1</span>, <span>Text2</span>]}
       </div>
-    </div>
+    </ReactPattern>
   );
 };
 
