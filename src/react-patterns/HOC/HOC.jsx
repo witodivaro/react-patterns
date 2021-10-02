@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ReactPattern from "../components/ReactPattern";
+import ReactPattern from "../../components/ReactPattern";
 
 const fetchElements = async () =>
   new Promise((resolve) => {

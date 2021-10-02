@@ -10,7 +10,7 @@ import StyleComponent from "./react-patterns/style-component/StyleComponent";
 import EventSwitch from "./react-patterns/event-switch/EventSwitch";
 import Layout from "./react-patterns/layout/Layout";
 import Container from "./react-patterns/container/Container";
-import HOC from "./HOC/HOC";
+import HOC from "./react-patterns/HOC/HOC";
 
 function App() {
   return (
