@@ -8,6 +8,8 @@ import RenderProps from "./react-patterns/render-props/RenderProps";
 import ChildrenPassThrough from "./react-patterns/children-pass-through/ChildrenPassThrough";
 import StyleComponent from "./react-patterns/style-component/StyleComponent";
 import EventSwitch from "./react-patterns/event-switch/EventSwitch";
+import Layout from "./react-patterns/layout/Layout";
+import Container from "./react-patterns/container/Container";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <ChildrenPassThrough />
         <StyleComponent />
         <EventSwitch />
+        <Layout />
+        <Container />
       </main>
     </div>
   );
