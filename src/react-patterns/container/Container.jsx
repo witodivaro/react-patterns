@@ -20,7 +20,7 @@ const DumbComponent = ({ elements }) => {
   );
 };
 
-const ContainerComponent = () => {
+const DumbComponentContainer = () => {
   const [elements, setElements] = useState([]);
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const ContainerComponent = () => {
 const Container = () => {
   return (
     <ReactPattern name="Container">
-      <ContainerComponent />
+      <DumbComponentContainer />
     </ReactPattern>
   );
 };
